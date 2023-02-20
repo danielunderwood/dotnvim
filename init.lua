@@ -129,6 +129,9 @@ vim.wo.signcolumn = 'yes'
 vim.o.termguicolors = true
 vim.cmd [[colorscheme catppuccin-mocha]]
 
+-- Highlight common columns
+vim.cmd [[set colorcolumn=81,121]]
+
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
