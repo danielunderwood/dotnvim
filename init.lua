@@ -350,10 +350,9 @@ local servers = {
   -- clangd = {},
   -- gopls = {},
   -- pyright = {},
-  -- rust_analyzer = {},
+  rust_analyzer = {},
   -- tsserver = {},
-  -- rnix_lsp = {
-  -- },
+  rnix = {},
 
   -- sumneko_lua = {
   --   Lua = {
