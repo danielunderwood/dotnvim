@@ -66,6 +66,7 @@ require('packer').startup(function(use)
   use 'hashivim/vim-terraform'
   use 'godlygeek/tabular'
   use 'preservim/vim-markdown'
+  use 'google/vim-jsonnet'
 
   -- Add custom plugins to packer from ~/.config/nvim/lua/custom/plugins.lua
   local has_plugins, plugins = pcall(require, 'custom.plugins')
